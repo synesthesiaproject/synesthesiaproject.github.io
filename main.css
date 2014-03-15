@@ -37,29 +37,6 @@ body {
 
 #logo {
 	position: absolute;
-	left: 872px;
-	top: 122px;
-	width: 65;
-	height: 85;
-	left: 733px;
-	top: 87px;
-	left: 476px;
-	top: 255px;
-	left: 178px;
-	top: 281px;
-	left: 48px;
-	top: 268px;
-	left: 58px;
-	top: 278px;
-	height: 66px;
-	left: 247px;
-	top: 22px;
-	left: 74px;
-	top: 246px;
-	left: 417px;
-	top: 474px;
-	left: 33px;
-	top: 288px;
 	left: 883px;
 	top: 130px;
 }
@@ -81,6 +58,7 @@ body {
 	position: absolute;
 	left: 900px;
 	top: 220px;
+	cursor:pointer;
 }
 
 #img_1 {
@@ -158,4 +136,9 @@ body {
 	top: 92px;
 	z-index:99;
 	display:none;
+}
+#video {
+	position: absolute;
+	left: 386px;
+	top: 1614px;
 }

@@ -704,8 +704,10 @@ document.querySelector('#question').addEventListener(
   event.preventDefault();
   if (audio.volume !== 0) {
      audio.volume = 0;
+	 event.target.src = 'images/mute1.png';
   } else {
      audio.volume = 1;
+	 event.target.src = 'images/mute.png';
   } 
   });
 
