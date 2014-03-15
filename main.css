@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-	position: absolute;
+	position: relative;
 	width: 960px;
 	margin-top: 0px;
 	margin-right: auto;
@@ -79,8 +79,8 @@ body {
 }
 #mute {
 	position: absolute;
-	left: 1108px;
-	top: 62px;
+	left: 900px;
+	top: 220px;
 }
 
 #img_1 {
@@ -150,3 +150,12 @@ body {
 	position: absolute;
 	left: 414px;
 	top: 5746px;
+}
+.instructions {
+	width: 200px;
+	position: absolute;
+	left: 712px;
+	top: 92px;
+	z-index:99;
+	display:none;
+}

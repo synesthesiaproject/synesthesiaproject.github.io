@@ -685,6 +685,30 @@ document.querySelector('#song12').addEventListener(
   makeOutHandler()
 );
 
+document.querySelector('#question').addEventListener(
+  'mouseover',
+ function (event) { 
+	event.preventDefault();
+	document.querySelector('.instructions').style.display = 'block';
+ });
+document.querySelector('#question').addEventListener(
+  'mouseout',
+  function (event) { 
+	event.preventDefault();
+	document.querySelector('.instructions').style.display = 'none';
+ });
+ 
+ document.querySelector('#mute').addEventListener(
+  'click',
+  function (event) {
+  event.preventDefault();
+  if (audio.volume !== 0) {
+     audio.volume = 0;
+  } else {
+     audio.volume = 1;
+  } 
+  });
+
 //Audiohandler is a separate script that helps us to start and stop music when we click the buttons//
 function makeAudioHandler (audioSource) {
   return function (event) {
