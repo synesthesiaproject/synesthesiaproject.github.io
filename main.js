@@ -352,6 +352,26 @@ document.querySelector('#black5').addEventListener(
   makeOutHandler()
 );  
 
+document.querySelector('#lightblue5').addEventListener(
+  'mouseover',
+  makeAudioHandler('5/lightblue5.mp3')
+);
+
+document.querySelector('#lightblue5').addEventListener(
+  'mouseout',
+  makeOutHandler()
+);  
+
+document.querySelector('#song5').addEventListener(
+  'mouseover',
+  makeAudioHandler('5/song5.mp3')
+);
+
+document.querySelector('#song5').addEventListener(
+  'mouseout',
+  makeOutHandler()
+);  
+
 <!--6-->
 document.querySelector('#darkblue6').addEventListener(
   'mouseover',
