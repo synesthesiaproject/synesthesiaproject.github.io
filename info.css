@@ -5,15 +5,15 @@ background: url(images/background.png) top center no-repeat;
 }
 body {
 	position: relative;
-	width: 960px;
-	margin-top: 0px;
+	width: 500px;
+	margin-top: 100px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 0;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 	font-style: normal;
 	font-variant: small-caps;
-	font-weight: 100;
+	font-weight: lighter;
 	font-size: medium;
 	text-shadow: 0px 0px;
 	text-align: justify;

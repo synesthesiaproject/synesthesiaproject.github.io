@@ -340,6 +340,17 @@ document.querySelector('#song4').addEventListener(
   makeOutHandler()
 ); 
 
+<!--5-->
+
+document.querySelector('#black5').addEventListener(
+  'mouseover',
+  makeAudioHandler('5/black5.mp3')
+);
+
+document.querySelector('#black5').addEventListener(
+  'mouseout',
+  makeOutHandler()
+);  
 
 <!--6-->
 document.querySelector('#darkblue6').addEventListener(
